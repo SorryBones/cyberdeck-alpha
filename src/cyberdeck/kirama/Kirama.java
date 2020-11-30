@@ -1,6 +1,8 @@
 package cyberdeck.kirama;
 
-public class Kirama {
+import cyberdeck.Cyberdeck;
+
+public class Kirama implements Cyberdeck {
 
     /**
      * Displays a welcome message to the user.
@@ -32,11 +34,16 @@ public class Kirama {
         System.out.println("");
     } //welcome
 
-    /**
-     * Shows a custom prompt to the user and takes commands.
-     */
-    public void prompt() {
+    public void commandPrompt() {
 
-    } //prompt
+    } //commandPrompt
+
+    public String info(String section) {
+        return "placeholder";
+    } //info
+
+    public String help() {
+        return "placeholder";
+    } //help
 
 } //KiramaDeck
