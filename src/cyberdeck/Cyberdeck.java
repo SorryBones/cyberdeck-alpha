@@ -19,8 +19,6 @@ public interface Cyberdeck {
      * Rolls the specified number and type of dice.
      */
     public default int roll(int num, int type) {
-        /* Calculations */
-        return num * (int)(Math.random() * type) + 1;
 
     } //roll
 
